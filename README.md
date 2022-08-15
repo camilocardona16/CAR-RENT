@@ -1,27 +1,23 @@
-# CARRENT
+# INFORMACION BASE:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+- El proyecto se compone de 4 carpetas base
+  - components : almacena los compoentes reutilizables
+  - shared : almacena compoenntes que pueden compartir otros componentes a diferencia que estos son generales
+  - views: Almacena las vistas principales
+  - core: ALmacena el nucleo de la aplicacion
 
-## Development server
+# Aspectos a tener en cuenta
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Use css directo en el template por cuestion de tiempo ya que lo queria entregas lo mas pronto posible
+- Use solo un endpoint de servicio para obteenr todos los carros y para filtrar
+- Use esquema redux para almacenar la data incluidos effects y selectors (ngrx)
+- El archivo JSON se encuentra en assets/files/cars.json
+- Queria hacer un servicio para los slides de banners.
 
-## Code scaffolding
+Con lo relizado en este proyecto doy una demosracion de mis conocimientos, use libreias de bootstrap y angular amterial para dar un poco de estilos adicianales a los css que use en el template
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+No cree las clases de css por cuestion de tiempo ya que como mencione queria acabar en un corto tiempo
 
-## Build
+El tiempo total invertido en el desarrollo fue de 10h
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Espero cumplir con sus espectativas, quedo atento a comentarios :D

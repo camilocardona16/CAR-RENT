@@ -1,6 +1,9 @@
 export interface CarInterface{
     id:number
-    title:string
+    brand:string
+    model:string
+    year:string
     descripcion:string
     price:string
+    image:string
 }

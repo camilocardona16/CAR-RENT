@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "brand":"Audi",
+        "model":"A3",
+        "year":"2020",
+        "descripcion": "Aute ullamco minim occaecat aliquip dolore anim exercitation consectetur laboris mollit pariatur. Consectetur aliqua sit officia non amet dolor incididunt cupidatat. Consectetur officia commodo nulla magna officia eiusmod mollit officia in tempor deserunt. Qui enim labore proident sit do dolor aliqua. In velit velit fugiat sit laboris eu sunt est laboris officia dolor irure ut.",
+        "price":20000,
+        "image":"https://www.elcarrocolombiano.com/wp-content/uploads/2020/03/20200303-AUDI-A3-SPORTBACK-PORTADA.jpg"
+    },
+    {
+        "id":2,
+        "brand":"BMW",
+        "model":"M240",
+        "year":"2018",
+        "descripcion": "Aute ullamco minim occaecat aliquip dolore anim exercitation consectetur laboris mollit pariatur. Consectetur aliqua sit officia non amet dolor incididunt cupidatat. Consectetur officia commodo nulla magna officia eiusmod mollit officia in tempor deserunt. Qui enim labore proident sit do dolor aliqua. In velit velit fugiat sit laboris eu sunt est laboris officia dolor irure ut.",
+        "price":30000,
+        "image":"https://cdn.motor1.com/images/mgl/VRKBR/s1/lanzamiento-bmw-serie-2-coupe-lci-2020.jpg"
+    },
+    {
+        "id":3,
+        "brand":"Mercedes Benz",
+        "model":"AMG",
+        "year":"2022",
+        "descripcion": "Aute ullamco minim occaecat aliquip dolore anim exercitation consectetur laboris mollit pariatur. Consectetur aliqua sit officia non amet dolor incididunt cupidatat. Consectetur officia commodo nulla magna officia eiusmod mollit officia in tempor deserunt. Qui enim labore proident sit do dolor aliqua. In velit velit fugiat sit laboris eu sunt est laboris officia dolor irure ut.",
+        "price":40000,
+        "image":"https://www.elcarrocolombiano.com/wp-content/uploads/2021/07/20210728-MERCEDES-AMG-E-63-S-4MATIC-COLOMBIA-PRECIO-CARACTERISTICAS-FICHA-TECNICA-01.jpg"
+    }
+]

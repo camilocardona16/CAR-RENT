@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CarsListComponent } from './cars-list/cars-list.component';
 import { CardComponent } from './card/card.component';
 import { MaterialModuleModule } from '../shared/material/material-module/material-module.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,8 @@ import { MaterialModuleModule } from '../shared/material/material-module/materia
   ],
   imports: [
     CommonModule,
-    MaterialModuleModule
+    MaterialModuleModule,
+    FormsModule
   ],
   exports:[
     CarsListComponent

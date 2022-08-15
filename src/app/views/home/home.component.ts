@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { requestCarsList } from 'src/app/core/ngrx/actions/cars.actions';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private store:Store
+  ) {
+    this.getData()
+  }
 
   ngOnInit(): void {
   }
+
+  getData(){
+    this.store.dispatch(requestCarsList({search:''}))
+  }
+
 
 }

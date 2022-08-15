@@ -1,5 +1,6 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { CarInterface } from 'src/app/core/interfaces/car.interface';
 
 
 @Component({
@@ -9,6 +10,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class CardComponent implements OnInit {
 
+  @Input() car!:CarInterface;
   @Output() openDialog = new EventEmitter<number>();
 
 

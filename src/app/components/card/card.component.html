@@ -1,14 +1,21 @@
 <div class="card" style="width: 18rem">
-  <img src="https://via.placeholder.com/700x300" class="card-img-top" />
+  <img style="position: relative" [src]="car.image" class="card-img-top" />
+
+  <h5
+    class="badge rounded-pill"
+    style="position: absolute; left: 10%; background-color: #e5a00c; top: 1vh"
+  >
+    $ {{ car.price }}
+  </h5>
   <div class="card-body">
-    <h5 class="card-title">Classic Cars</h5>
-    <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
+    <h1 class="card-title">
+      {{ car.brand }} {{ car.model }} {{ car.year }}
+      <span class="badge bg-secondary">New</span>
+    </h1>
+    <p class="card-text">{{ car.descripcion }}</p>
     <a
       type="button"
-      (click)="openDetail(1)"
+      (click)="openDetail(car.id)"
       style="text-decoration: none; color: #e5a00c; font-weight: bold"
       >* Go somewhere *</a
     >
