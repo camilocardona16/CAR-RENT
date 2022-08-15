@@ -21,3 +21,7 @@ No cree las clases de css por cuestion de tiempo ya que como mencione queria aca
 El tiempo total invertido en el desarrollo fue de 10h
 
 Espero cumplir con sus espectativas, quedo atento a comentarios :D
+
+# DESPLIEGUE
+
+- para subir el proyecto, use heroku.
